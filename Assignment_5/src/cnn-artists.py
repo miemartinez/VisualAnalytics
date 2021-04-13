@@ -408,7 +408,7 @@ def plot_history(H, n_epochs):
     plt.tight_layout()
     plt.savefig(figure_path)
     
-    print(f"\n[INFO] Loss and accuracy across on training and validation is saved as '{plot_path}'.")
+    print(f"\n[INFO] Loss and accuracy across on training and validation is saved as '{figure_path}'.")
     
 def evaluate_model(model, testX, testY, batch_size, label_names):
     """
